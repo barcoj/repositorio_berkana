@@ -93,8 +93,13 @@ footer {
     display: flex;
     flex-direction: row;
     width: 90px;
+    transition: all 0.3s;
 }
 
+.logoPrincipal:hover {
+    height: 220px;
+    width: 220px;
+}
 
 .navRedes li {
     bottom: 85px;
@@ -162,7 +167,20 @@ footer {
     }
 }
 
+/* EJEMPLOS DE PROPIEDADES */
 
+
+/*.divUno {
+    background-color: azure;*/
+    /* transition: height 0.4s, width 0.8s; */
+    /*transition: all 0.3s;
+}
+
+.divUno:hover {
+    background-color: black;
+    height: 220px;
+    width: 220px;
+}*/
 
 
 /* body {
