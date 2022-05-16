@@ -1,0 +1,263 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+/* body {
+    text-align: center;
+} */
+
+
+/* HEADER */
+
+header {
+    background-image: linear-gradient(to right, #ee0979, #ff6a00);
+    grid-area: header;
+    top: 0;
+    width: 100%;
+    /* display: flex;
+    flex-direction: row;
+    height: 150px; */
+}
+    
+    
+
+h1 {
+    color:  black;
+    text-align: center;
+}
+
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.navPrincipal {
+    grid-area: nav;
+    background-image: radial-gradient(#f27900, #0576e64b);
+    height: 35px;
+    justify-content: center;   
+}
+
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+li {
+    list-style-type: none;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: larger;
+    display: inline-block;
+    }
+
+
+main {
+    height: 500px;
+    grid-area: main;
+    background-color: bisque;
+    text-align: center;
+}
+
+
+aside {
+    width: 100%;
+    grid-area: aside;
+    background-color: bisque;
+    text-align: center;
+}
+
+
+footer {
+    height: 50px;
+    grid-area: footer;
+    background-color: black;
+    color: white;
+}
+
+
+.logoPrincipal {
+    display: flex;
+    flex-direction: row;
+    width: 90px;
+}
+
+
+.navRedes li {
+    bottom: 85px;
+    display: inline-block;
+}
+
+
+.logosRedes {
+    width: 30px;
+   margin: 5px;  
+}
+
+
+.imgBar {
+    width: 400px;      
+}
+
+
+.mapa {
+    width: 400px ;    
+}
+
+
+.mainGaleria {
+    width: 100%;
+    background-color: black;
+    height: 100% ;
+}
+
+.fotoGaleria {
+    width: 200px;
+}
+
+.sectionGaleria {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 15px;
+    
+}
+
+@media (min-width: 1000px) {
+    .bodyGrid {
+        display: grid;
+        grid-template-areas: 
+        "header header"
+        "nav nav"
+        "main aside"
+        "footer footer"
+        ;
+    }
+}
+
+
+
+@media (min-width: 320px) {
+    .bodyGrid {
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "main"
+        "aside"
+        "footer"
+        ;
+    }
+}
+
+
+
+
+/* body {
+    font-family: 'Open Sans', sans-serif;    
+    font-size: x-large;
+    background-size: cover;
+}
+
+/*HEADER*/
+/* header {
+    border: 2px dotted yellow;
+    background-color:black;
+    position: sticky;
+    top: 0%;
+    width: 100;
+    height: 90px;
+    display: flex;
+    flex-flow: row-reverse
+}
+
+
+.logoPrincipal {
+    width: 90px;
+}
+
+.logosRedes {
+    width: 30px;
+   margin: 5px;  
+}
+
+.navRedes {
+    text-align: end;
+    position: sticky;
+    bottom: 85px;
+    display: flex;
+    
+}
+
+.navRedes li {
+    display: inline-block;
+}
+
+.navPrincipal {
+    display: flex;
+    margin-top: 0%;
+    justify-content: space-around;
+    }
+
+.liPrincipal {
+    display: inline;
+    text-align: center;
+    padding: 2rem;
+}
+
+.mainPrincipal {
+    display: inline-block;
+    background-image: url(../img/bar\ 2.JPG);
+    padding: 15rem;
+    background-size: cover;
+    width: 1100px;
+}
+
+h1 { 
+    text-align: center ;   
+    font-size: 6rem;   /*1rem = 16px*/
+    /* color: orangered;
+}
+
+.divUbicacion {
+    background-color: orangered;
+}
+
+
+h2 {
+    color: black;
+    text-align: start;
+    font-size: 3rem;
+   }
+
+/*PROPIEDADES PARA LAS ANCLAS*/
+/* a {
+    text-decoration:none ;        /*elimina el subrayado de los hypervinculos*/
+    /* font-weight: bold;            pone en negrita el texto */
+/* } */
+
+/*PROPIEDADES PARA LAS LISTAS*/
+/* li {
+    list-style-type: none;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+footer {
+    background-color: steelblue;
+    margin: 50px;
+    padding: 50px;
+} */ 
+
